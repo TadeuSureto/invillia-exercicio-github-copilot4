@@ -92,6 +92,43 @@ section h3 {
   color: #3949ab;
 }
 
+.activity-card .participants-list-block {
+  background: #eef2fa;
+  border: 1px solid #c5cae9;
+  border-radius: 4px;
+  padding: 10px 14px 8px 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.activity-card .participants-list-block p {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #283593;
+}
+
+.activity-card ul.participants-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.activity-card ul.participants-list li {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.activity-card ul.participants-list li::before {
+  content: "👤";
+  font-size: 15px;
+  margin-right: 4px;
+  color: #3949ab;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
